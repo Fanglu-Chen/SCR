@@ -1,0 +1,32 @@
+Package: SCR
+Title: Sequential Covariate-adaptive Randomization
+Version: 1.0.0
+Authors@R: c(person(given = "Fanglu",
+           family = "Chen",
+           role = c("aut", "cre"),
+           email = "chenfanglu1031@qq.com"),
+           person(given = "Haoyu",
+           family = "Yang",
+           role = c("aut"),
+           email = "haoyuyang@ruc.edu.cn"),
+           person(given = "Yang",
+           family = "Li",
+           role = c("aut"),
+           email = "yang.li@ruc.edu.cn"),
+           person(given = "Yichen",
+           family = "Qin",
+           role = c("aut"),
+           email = "qinyn@ucmail.uc.edu"))
+Author: Fanglu Chen [aut, cre],Haoyu Yang [aut],
+  Yang Li [aut],
+  Yichen Qin [aut]
+Description: In randomized controlled trial (RCT), balancing covariate is often one of the most important concern. SCR package provides functions to balance the covariates and allocate participants unit-by-unit by covariate-adjusted Adaptive Randomization via Mahalanobis-distance (ARM) for RCT. 
+License: GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: MASS, tidyverse
+Imports: dplyr, readr
+NeedsCompilation: no
+Packaged: 2024-02-03 02:02:22 UTC; chenf
+Maintainer: Fanglu Chen <chenfanglu1031@qq.com>
